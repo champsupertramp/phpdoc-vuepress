@@ -1,5 +1,5 @@
 {
-  "name": "nelson6e65/phpdoc-vuepress",
+  "name": "champsupertramp/phpdoc-vuepress",
   "description": "Template for generating your PHP API documentation in a pretty VuePress format.",
   "keywords": [
     "PHPDoc",
@@ -9,7 +9,7 @@
     "Markdown",
     "VuePress"
   ],
-  "homepage": "https://github.com/nelson6e65/phpdoc-vuepress",
+  "homepage": "https://github.com/champsupertramp/phpdoc-vuepress",
   "license": "MIT",
   "authors": [
     {
