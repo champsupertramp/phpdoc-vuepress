@@ -15,7 +15,7 @@
 {{ constant.summary|replace({'#### ': '- ', '### ': '- ', '## ': '- ', '# ': '- ',})|raw }}
 
 {# Constant value #}
-```php
+```php:no-line-numbers
 {# TODO wait compatibiliti with PHP 7.1 constant visibility {{ constant.visibility }}#}
 {{ constant.name }} = {{ constant.value|raw }};
 ```

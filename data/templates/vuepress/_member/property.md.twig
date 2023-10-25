@@ -16,7 +16,7 @@
 
 
 {# property signature #}
-```php
+```php:no-line-numbers
 {{ property.visibility }}{% if property.static %} static{% endif %} ${{ property.name }}
 {%- if property.default is not same as(null) %} = {{ property.default|raw }}{% endif %};
 ```

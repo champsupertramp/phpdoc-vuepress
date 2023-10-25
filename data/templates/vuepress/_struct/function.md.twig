@@ -5,7 +5,7 @@
 {{ function.summary|replace({'#### ': '- ', '### ': '- ', '## ': '- ', '# ': '- ',})|raw }}
 
 {# Function signature #}
-```php
+```php:no-line-numbers
 function {{ function.name }}( {% for argument in function.arguments %}
 {{- argument.types|default(['mixed'])|sort_asc|join('|')~' ' }}
 {{- argument.byReference ? '&' }}
